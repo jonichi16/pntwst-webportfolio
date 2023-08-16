@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<title>Jonichi | Mechanical Engineer x Full Stack Web Developer</title>
+</head>
+<body>
+	<!-- Navbar Section Start -->
+	<nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+	  <div class="container">
+	    <a class="navbar-brand logo fs-1 text-light" href="#landing">J1</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" >
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+	      <div class="navbar-nav fw-bold">
+	        <a class="nav-link text-light text-uppercase item-nav" href="#landing">Home</a>
+	        <a class="nav-link text-light text-uppercase item-nav" href="#tools">Tools</a>
+	        <a class="nav-link text-light text-uppercase item-nav" href="#projects">Projects</a>
+	        <a class="nav-link text-light text-uppercase item-nav" href="#contact">Contacts</a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Navbar Section End -->
+
+	<!-- Header / Landing Start -->
+	<header id="landing">
+		<div class="container py-5 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
+			<div class="text-light text-center text-md-start mb-5">
+				<p class="lh-1 fs-5">Hi, my name is</p>
+				<h2 class="text-uppercase lh-1 fw-bold">Jhonel Villanueva</h2>
+				<h3 class="lh-1 job text-nowrap">Mech. Engineer x Full Stack Web Developer</h3>
+				<p class="pt-4 mb-0 w-lg-75 about">Ut vehicula velit a augue scelerisque facilisis. Quisque placerat maximus venenatis. Vivamus sed nisi eu enim dictum pretium. Nullam at tortor vel felis viverra finibus ut vel tortor. Suspendisse sit amet vestibulum ex, eu eleifend ex. Curabitur volutpat auctor consectetur.</p>
+				<a href="#contact" class="cta-btn btn btn-warning fw-bold mt-4">Contact Me</a>
+			</div>
+			<img src="./images/dev 1.svg" alt="Developer" width="400" class="img-fluid mx-auto mx-md-0">
+		</div>
+	</header>
+	<!-- Header / Landing End -->
+
+	<!-- Main -->
+	<main>
+		<!-- Tools Section Start -->
+		<section id="tools" class="bg-light mt-5">
+			<div class="container position-relative pt-5 top-50">
+				<h3 class="text-center pb-4 fw-bold text-uppercase">Tools</h3>
+				<div class="tools-images d-flex flex-md-column gap-5 justify-content-center align-items-center z-1 position-relative">
+					<div class="d-flex flex-column flex-md-row row-gap-5 gap-md-5">
+						<img src="./images/logo/html.svg" alt="HTML" class="tools-logo img-fluid">
+						<img src="./images/logo/css.svg" alt="CSS" class="tools-logo img-fluid">
+						<img src="./images/logo/bootstrap.svg" alt="bootstrap" class="tools-logo img-fluid">
+					</div>
+					<div class="d-flex flex-column flex-md-row row-gap-5 gap-md-5">
+						<img src="./images/logo/git.svg" alt="Git" class="tools-logo img-fluid">
+						<img src="./images/logo/gitea.svg" alt="Gitea" class="tools-logo img-fluid">
+						<img src="./images/logo/sublime.svg" alt="Sublime" class="tools-logo img-fluid">
+					</div>
+					
+				</div>
+				<div class="box position-absolute bg-light rounded-bottom"></div>
+			</div>
+		</section>
+		<!-- Tools Section End -->
+
+		<!-- Projects Section Start -->
+		<section class="container py-5">
+			<h3 id="projects" class="text-center mt-5 pt-5 pb-4 fw-bold text-light  text-uppercase">Projects</h3>
+			<div class="row justify-content-center gap-3 row-gap-4 pb-5">
+				<!-- Project 1 Card Start -->
+				<div class="card p-0">
+				  <img src="./images/projects/project-1.png" class="card-img-top" alt="Tic-Tac-Toe App">
+				  <div class="card-body">
+				    <h5 class="card-title fw-bold">Tic-Tac-Toe</h5>
+				    <p class="card-text">A two-player game where players take turns marking a 3x3 grid, aiming to get three in a row, column, or diagonal to win.</p>
+				    <div class="d-flex mb-4 gap-1">
+				    	<div class="tech bg-dark text-light rounded-pill">HTML</div>
+				    	<div class="tech bg-dark text-light rounded-pill">CSS</div>
+				    	<div class="tech bg-dark text-light rounded-pill">JavaScript</div>
+				    </div>
+				    <a href="https://jonichi16.github.io/odin-tic-tac-toe/" class="button fw-bold btn btn-warning w-100">Go to live</a>
+				  </div>
+				</div>
+				<!-- Project 1 Card End -->
+
+				<!-- Project 2 Card Start -->
+				<div class="card p-0">
+				  <img src="./images/projects/project-2.png" class="card-img-top" alt="Basic Calculator">
+				  <div class="card-body">
+				    <h5 class="card-title fw-bold">Basic Calculator</h5>
+				    <p class="card-text">A simple calculator that performs basic mathematical calculations, featuring basic arithmetic operations.</p>
+				    <div class="d-flex mb-4 gap-1">
+				    	<div class="tech bg-dark text-light rounded-pill">HTML</div>
+				    	<div class="tech bg-dark text-light rounded-pill">CSS</div>
+				    	<div class="tech bg-dark text-light rounded-pill">JavaScript</div>
+				    </div>
+				    <a href="https://jonichi16.github.io/basic-calculator/" class="button fw-bold btn btn-warning w-100">Go to live</a>
+				  </div>
+				</div>
+				<!-- Project 2 Card End -->
+
+				<!-- Project 3 Card Start -->
+				<div class="card p-0">
+				  <img src="./images/projects/project-3.png" class="card-img-top" alt="Etch-a-Sketch">
+				  <div class="card-body">
+				    <h5 class="card-title fw-bold">Etch-a-Sketch</h5>
+				    <p class="card-text">An interactive digital drawing tool that lets users create art by moving their cursor on the screen.</p>
+				    <div class="d-flex mb-4 gap-1">
+				    	<div class="tech bg-dark text-light rounded-pill">HTML</div>
+				    	<div class="tech bg-dark text-light rounded-pill">CSS</div>
+				    	<div class="tech bg-dark text-light rounded-pill">JavaScript</div>
+				    </div>
+				    <a href="https://jonichi16.github.io/etch-a-sketch/" class="button fw-bold btn btn-warning w-100">Go to live</a>
+				  </div>
+				</div>
+				<!-- Project 3 Card End -->
+			</div>
+		</section>
+		<!-- Projects Section End -->
+
+		<!-- Used https://app.haikei.app/ to generate the pattern -->
+		<img src="./images/layered-waves-haikei.svg" class="img-fluid w-100">
+
+		<!-- Contact Section Start -->
+		<section id="contact" class="bg-light py-5 text-uppercase">
+			<h3 class="text-center text-dark fw-bold mb-5">Let's Connect!</h3>
+			<div class="d-flex justify-content-center align-items-center gap-5 container">
+				<img src="./images/mail.svg" alt="Mailing" class="mail img-fluid d-none d-md-block">
+				<form class="flex-grow-1">
+					<div class="mb-3">
+					  	<label for="name" class="form-label fw-bold">Name</label>
+					  	<input type="text" class="form-control border border-dark" id="name" placeholder="Your name" required>
+					</div>
+					<div class="mb-3">
+					  	<label for="email" class="form-label fw-bold">Email</label>
+					  	<input type="email" class="form-control border border-dark" id="email" placeholder="name@example.com" required>
+					</div>
+					<div class="mb-3">
+					  	<label for="message" class="form-label fw-bold">Message</label>
+					  	<textarea class="form-control border border-dark" id="message" rows="5" placeholder="Enter your message here..." required></textarea>
+					</div>
+					<button type="submit" class="button fw-bold btn btn-warning w-100">Send Email</button>
+				</form>
+			</div>
+		</section>
+		<!-- Contact Section End -->
+	</main>
+	<!-- Main -->
+
+	<!-- Footer -->
+	<footer>
+		<p class="text-light m-0 text-center py-3">Made with ❤️ by <a href="https://git.zuitt.co/jhonel.villanueva" class="text-warning">jonichi</a></p>
+	</footer>
+	<!-- Footer -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
