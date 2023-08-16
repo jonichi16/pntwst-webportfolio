@@ -40,7 +40,7 @@
 				<p class="lh-1 fs-5">Hi, my name is</p>
 				<h2 class="text-uppercase lh-1 fw-bold">Jhonel Villanueva</h2>
 				<h3 class="lh-1 job text-nowrap">Mech. Engineer x Full Stack Web Developer</h3>
-				<p class="pt-4 mb-0 w-lg-75 about">Ut vehicula velit a augue scelerisque facilisis. Quisque placerat maximus venenatis. Vivamus sed nisi eu enim dictum pretium. Nullam at tortor vel felis viverra finibus ut vel tortor. Suspendisse sit amet vestibulum ex, eu eleifend ex. Curabitur volutpat auctor consectetur.</p>
+				<p class="pt-4 mb-0 w-lg-75 about">I am a Mechanical Engineer with a strong desire to transition into a developer role. I embarked on a self-taught journey using <a href="https://www.theodinproject.com/" class="text-warning text-decoration-none">TheOdinProject</a> to expand my skills and knowledge.</p>
 				<a href="#contact" class="cta-btn btn btn-warning fw-bold mt-4">Contact Me</a>
 			</div>
 			<img src="./images/dev 1.svg" alt="Developer" width="400" class="img-fluid mx-auto mx-md-0">
@@ -148,8 +148,22 @@
 					  	<label for="message" class="form-label fw-bold">Message</label>
 					  	<textarea class="form-control border border-dark" id="message" rows="5" placeholder="Enter your message here..." required></textarea>
 					</div>
-					<button type="submit" class="button fw-bold btn btn-warning w-100">Send Email</button>
+					<button type="submit" class="button fw-bold btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#divModal">Send Email</button>
 				</form>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="divModal" tabindex="-1">
+				<div class="modal-dialog">
+				    <div class="modal-content">
+				    	<div class="modal-body">
+				        	<p class="text-center pt-5 fw-bold">Message Sent! Thanks!</p>
+				    	</div>
+				    	<div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				    	</div>
+				    </div>
+				</div>
 			</div>
 		</section>
 		<!-- Contact Section End -->
